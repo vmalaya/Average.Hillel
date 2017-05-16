@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Average {
     public static void main(String[] arg) {
 
-       System.out.println("Pleas input first number: ");
+       System.out.println("Please input first number: ");
         Scanner scanner = new Scanner(System.in);
         double first = scanner.nextDouble();
-        System.out.println("Pleas input second number: ");
+        System.out.println("Please input second number: ");
         Scanner in = new Scanner(System.in);
         double second = in.nextDouble();
         double sum = first+second;
